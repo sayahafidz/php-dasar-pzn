@@ -14,7 +14,7 @@ usort($files, function ($x, $y) {
     return filemtime($x) < filemtime($y);
 });
 echo $files[0] . PHP_EOL;
-$file = $files[0];
+echo $file = $files[0];
 
 $zip = new ZipArchive;
 if ($zip->open($file) === TRUE) {

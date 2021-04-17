@@ -1,7 +1,7 @@
 <?php
 require_once 'Person.php';
 
-$orang = new Person(); //membuat object
+$orang = new Person('orang', null); //membuat object
 
 // manipulasi properties.
 $orang->name = 'hafidz';
